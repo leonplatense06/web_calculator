@@ -54,3 +54,16 @@ body {
     box-shadow: 1px 1px 1px 1px rgb(1, 202, 152);;
     
 }
+
+.calc-button:hover {
+    cursor: pointer;
+    background-color: rgba(3, 221, 167, 0.548);
+    box-shadow: inset 1px 1px 1px 1px;
+    transition: all 0.1s;
+}
+
+.calc-button:active {
+    cursor: pointer;
+    box-shadow: inset 1.5px 1.5px 1.5px 1.5px;
+    transition: all 0.1s;
+}
