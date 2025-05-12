@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="calculator.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
     <title>Calculadora</title>
 </head>
 <body>
     <div class="calculator-body">
         <p class="brand">MONACO</p>
-        <div class="display"></div>
+        <div class="display">0</div>
         <div class="button-box">
-            <button class="calc-button">7</button>
+            <button class="calc-button" onclick="addValue(7)">7</button>
             <button class="calc-button">8</button>
             <button class="calc-button">9</button>
             <button class="calc-button">/</button>
